@@ -1,0 +1,1081 @@
+--- Terminal on /dev/ttyUSB0 | 115200 8-N-1
+--- Available filters and text transformations: debug, default, direct, esp32_exception_decoder, hexlify, log2file, nocontrol, printable, send_on_enter, time
+--- More details at https://bit.ly/pio-monitor-filters
+--- Quit: Ctrl+C | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��x��␀x␀x��xx�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)","wifi_ok":true,"wifi_ip":"1x�)",0.13","uptime_ms":10274,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10295,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10317,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10328,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10350,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10371,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10383,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 10s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10467,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10489,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10500,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10522,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10543,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10554,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10576,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10597,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10608,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10630,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10652,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10663,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10685,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10706,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10717,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10739,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10760,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10772,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10794,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10815,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10826,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10848,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10869,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10881,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10902,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 10s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10977,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":10998,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11020,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11031,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11053,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11074,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11085,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11107,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11128,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11140,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11161,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11183,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11194,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11216,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11237,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11249,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11270,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11291,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11303,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11324,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11346,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11357,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11379,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11400,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11412,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 11s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11496,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11517,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11528,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11550,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11571,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11582,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11604,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11626,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11637,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11659,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11680,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11691,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11713,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11734,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11745,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11767,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11789,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11800,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11822,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11843,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11854,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11876,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11897,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11909,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":11930,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 11s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":12014,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+[Bradicardia (BPM baixo)] HTTP 200 — {"sucesso" : true, "id_dispositivo" : 1}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13467,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 13s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13541,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13563,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13574,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13596,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13617,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13628,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13650,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13671,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13682,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13704,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13726,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13737,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13759,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13780,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13791,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13813,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13834,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13845,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13867,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13889,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13900,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13922,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13943,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13954,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":13976,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 14s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14060,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14071,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14092,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14114,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14125,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14147,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14168,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14180,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14201,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14223,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14234,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14255,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14277,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14288,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14310,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14331,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14343,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14364,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14386,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14397,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14418,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14440,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14451,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14473,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14495,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 14s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14568,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14590,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14611,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14623,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14644,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14666,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14677,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14699,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14720,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14732,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14753,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14774,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14786,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14807,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14829,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14840,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14862,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14884,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14895,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14917,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14938,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14949,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14971,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":14992,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15004,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 15s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15088,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15099,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15120,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15142,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15153,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15175,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15197,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15208,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15229,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15251,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15262,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15284,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15306,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15317,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15338,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15360,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15371,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15392,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15414,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15425,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15447,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15469,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15480,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15501,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15523,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 15s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15597,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15618,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15639,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15651,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15672,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15694,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15705,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15727,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15748,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15760,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15781,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15802,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15814,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15835,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15857,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15868,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15890,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15911,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15923,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15944,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15965,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15977,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":15999,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16020,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16031,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 16s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16115,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16137,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16148,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16170,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16191,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16202,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16224,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16245,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16257,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16278,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16300,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16311,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16333,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16354,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16365,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16387,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16408,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16420,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16441,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16463,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16474,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16496,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16517,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16528,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16550,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 16s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16624,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16645,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16667,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16678,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16699,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16721,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16732,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16754,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16775,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16787,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16808,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16830,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16851,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16862,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16884,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16905,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16917,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16938,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16960,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16971,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":16993,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17014,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17026,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17047,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17069,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 17s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17142,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17164,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17175,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17197,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17218,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17229,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17251,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17273,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17284,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17305,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17327,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17338,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17360,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17381,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17392,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17414,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17436,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17447,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17469,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17490,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17501,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17523,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17545,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17556,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17577,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 17s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17661,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17673,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17694,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17716,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17727,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17748,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17770,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17781,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17803,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17824,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17836,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17857,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17879,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17890,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17911,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17933,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17944,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17966,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17987,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":17999,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":18020,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+[Bradicardia (BPM baixo)] HTTP 200 — {"sucesso" : true, "id_dispositivo" : 1}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19500,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 19s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19574,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19596,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19607,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19629,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19650,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19661,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19683,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19704,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19715,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19737,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19759,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19770,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19792,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19813,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19825,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19846,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19868,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19879,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19901,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19922,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19933,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19955,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19977,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":19988,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20010,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 20s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20094,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20105,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20126,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20148,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20159,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20180,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20202,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20214,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20235,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20257,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20268,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20290,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20312,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20323,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20344,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20366,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20377,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20398,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20420,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20431,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20453,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20475,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20486,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20507,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20529,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 20s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20603,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20625,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20636,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20658,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20679,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20690,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20712,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20733,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20744,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20766,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20788,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20799,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20821,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20842,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20853,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20875,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20896,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20907,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20929,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20951,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20962,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":20984,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21005,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21016,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21038,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 21s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21122,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21133,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21155,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21176,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21188,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21209,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21231,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21242,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21263,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21285,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21296,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21318,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21339,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21351,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21372,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21394,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21405,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21426,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21448,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21459,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21481,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21502,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21514,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21535,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21557,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 21s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21631,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21652,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21673,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21685,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21706,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21728,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21739,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21761,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21782,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21794,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21815,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21836,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21848,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21869,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21891,"ultimo_http":200,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":21902,"u�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+
+egia ligada/religada de verdadeeuestFrom(): i2cWriteReadNonStoe
+i-Fi conectado! IP: 10.10.0.13
+Mac: 14:08:08:A5:0C:BC
+Painel de teste em: http://10.10.0.13/
+
+==============================================
+ MENU DE TESTE - SAGE (simulacao de sensores)
+==============================================
+ [1] Normal
+ [2] Parada cardiaca
+ [3] Bradicardia (BPM baixo)
+ [4] Taquicardia (BPM alto)
+ [5] Febre (temperatura alta)
+ [6] Hipotermia (temperatura baixa)
+ [7] Hipoxia (SpO2 baixo)
+ [8] Queda detectada (manual)
+ [9] Bateria fraca
+ [0] Reenviar leitura atual
+ [m] Mostrar este menu
+----------------------------------------------
+ Cenarios tambem disparam via TOUCH (toggle):
+   T0 (GPIO4)  -> Parada cardiaca
+   T2 (GPIO2)  -> Bradicardia
+   T3 (GPIO15) -> Taquicardia
+   T4 (GPIO13) -> Febre
+   T5 (GPIO12) -> Hipotermia
+   T6 (GPIO14) -> Hipoxia
+   T7 (GPIO27) -> Queda detectada (manual)
+   T8 (GPIO33) -> Bateria fraca
+----------------------------------------------
+ Acelerometro = potenciometro no GPIO34:
+   Giro lento  -> Normal
+   Giro rapido -> Queda detectada (automatico)
+----------------------------------------------
+ [h] Ver batimento cardiaco (MAX30102)
+ [a] Ver acelerometro (potenciometro)
+ [t] Ver status de temperatura/cenario
+==============================================
+Escolha uma opcao: 
+>> Cenario atual: Bradicardia (BPM baixo)
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1358,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 1s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m>> Envio ignorado (cooldown). Faltam ~4s para o proximo envio permitido.
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1443,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1454,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1475,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1497,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1508,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1529,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1551,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1562,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1584,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1605,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1617,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1638,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1660,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1671,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1692,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1714,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1725,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1747,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1758,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1779,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1801,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1812,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1834,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1855,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1866,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 1s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1950,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1971,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1982,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2004,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2015,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2037,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2059,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2070,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2091,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2113,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2124,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2145,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2167,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2178,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2199,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2221,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2232,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2254,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2275,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2286,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2308,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2329,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2341,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2362,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2373,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 2s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2457,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2478,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2489,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2511,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2532,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2544,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2565,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2587,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2598,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2620,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2631,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2652,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2674,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2685,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2706,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2728,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2739,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2761,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2782,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2793,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2815,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2836,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2848,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2869,"ultimo_http95}
+##J�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+>r)
+
+[   251][E][Wire.cpp:499] reuestFrom(): i2cWriteReadNonStopreturned Error -1
+MAX30102 nao encontrado! Verifique I2C.
+Conectando ao Wi-Fi SF_VISITANTES.
+Wi-Fi conectado! IP: 10.10.0.13
+Mac: 14:08:08:A5:0C:BC
+Painel de teste em: http://10.10.0.13/
+
+==============================================
+ MENU DE TESTE - SAGE (simulacao de sensores)
+==============================================
+ [1] Normal
+ [2] Parada cardiaca
+ [3] Bradicardia (BPM baixo)
+ [4] Taquicardia (BPM alto)
+ [5] Febre (temperatura alta)
+ [6] Hipotermia (temperatura baixa)
+ [7] Hipoxia (SpO2 baixo)
+ [8] Queda detectada (manual)
+ [9] Bateria fraca
+ [0] Reenviar leitura atual
+ [m] Mostrar este menu
+----------------------------------------------
+ Cenarios tambem disparam via TOUCH (toggle):
+   T0 (GPIO4)  -> Parada cardiaca
+   T2 (GPIO2)  -> Bradicardia
+   T3 (GPIO15) -> Taquicardia
+   T4 (GPIO13) -> Febre
+   T5 (GPIO12) -> Hipotermia
+   T6 (GPIO14) -> Hipoxia
+   T7 (GPIO27) -> Queda detectada (manual)
+   T8 (GPIO33) -> Bateria fraca
+----------------------------------------------
+ Acelerometro = potenciometro no GPIO34:
+   Giro lento  -> Normal
+   Giro rapido -> Queda detectada (automatico)
+----------------------------------------------
+ [h] Ver batimento cardiaco (MAX30102)
+ [a] Ver acelerometro (potenciometro)
+ [t] Ver status de temperatura/cenario
+==============================================
+Escolha uma opcao: 
+>> Cenario atual: Bradicardia (BPM baixo)
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1359,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 1s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m>> Envio ignorado (cooldown). Faltam ~4s para o proximo envio permitido.
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1444,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1455,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1476,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1498,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1509,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1530,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1552,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1563,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1585,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1606,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1618,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1639,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1661,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1672,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1693,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1715,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1726,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1747,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1769,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1780,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1801,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1812,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1834,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1856,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1867,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 1s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1950,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1972,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1983,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2005,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2016,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2038,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2059,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2070,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2092,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2114,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2125,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2146,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2168,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2179,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2200,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2222,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2233,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2254,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"c�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+rq returned Error -1
+MAX30102 naoencontrado! Verifique I2C.
+CoS
+i-Fi conectado! IP: 10.10.0.13
+ac: 14:08:08:A5:0C:BC
+Painel de
+=============================== SAGE (simulacao de sensores)
+============================================
+ [1] Normal
+ [2] arada cardiaca
+ [3] Bradicardi (BPM baixo)
+ [4] Taquicardia(BPM alto)
+ [5] Febre (temperampratura baixa)
+ [7] Hipoxia (SpO2 baixo)
+ [8] Queda detectada
+0------------------------------  -> Parada cardiaca
+   T2 (GPIO)  -> Bradicardia
+   T3 (GPIO11potermia
+   T6 (GPIO14) -> Hid -> Bateria fraca
+----------------------------------------------
+ Acelerometro = potenciometro no GPIO34:
+   Giro lento  -> Normal
+   Giro rapido -> Queda detectada (automatico)
+----------------------------------------------
+ [h] Ver batimento cardiaco (MAX30102)
+ [a] Ver acelerometro (potenciometro)
+ [t] Ver status de temperatura/cenario
+==============================================
+Escolha uma opcao: 
+>> Cenario atual: Bradicardia (BPM baixo)
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1356,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 1s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m>> Envio ignorado (cooldown). Faltam ~4s para o proximo envio permitido.
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1441,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1452,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1473,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1495,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1506,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1527,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1549,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1560,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1582,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1603,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1615,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1636,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1658,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1669,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1690,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1712,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1723,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1745,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1756,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1778,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1799,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1810,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1832,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1853,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1864,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 1s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1948,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1960,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":1981,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2003,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2014,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2035,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2057,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2068,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2089,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2111,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2122,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2143,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2165,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2176,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2198,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2219,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2230,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2252,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2273,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2285,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2306,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2317,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2339,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2360,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2372,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 2s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2455,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2477,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2488,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2510,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2521,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2542,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2564,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2575,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2596,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2618,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2629,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2651,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2672,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2684,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2705,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2727,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2738,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2759,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2781,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2792,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2813,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2835,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2846,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2867,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+##JSON:{"bpm":45,"spo2":98,"temp":36.5,"bateria":87,"queda":false,"cenario":"Bradicardia (BPM baixo)","wifi_ok":true,"wifi_ip":"10.10.0.13","uptime_ms":2878,"ultimo_http":0,"max_ok":false,"ir":4294967295}
+␛[2J␛[H␛[1m╔══════════════════════════════════════╗
+║         SAGE - Monitor Serial        ║
+╚══════════════════════════════════════╝
+␛[0m␛[90m  Cenario: ␛[0mBradicardia (BPM baixo)   Uptime: 2s
+
+␛[36m␛[1m  [ BATIMENTO CARDIACO - MAX30102 ]
+␛[0m␛[31m  Sensor nao encontrado! Verifique I2C.
+␛[0m
+␛[90m  ──────────────────────────────────────
+  [h] Batimento  [a] Acelerometro  [t] Cenarios/Touch  (atual: H)
+  [m] Menu de cenarios  [0] Reenviar agora
+␛[0m##JSON:{"bpm":45,"spo2":98ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+>ergia ligada/religada de verdae)
+
+[   251][E][Wire.cpp:499] rp returned Error -1
+MAX30102 nanectando ao Wi-Fi SF_VISITANTES

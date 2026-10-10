@@ -1,0 +1,765 @@
+#include <Arduino.h>
+#include <WiFi.h>
+#include <HTTPClient.h>
+#include <ArduinoJson.h>
+#include <ESPAsyncWebServer.h>
+#include <Wire.h>
+#include "MAX30105.h"
+#include "heartRate.h"
+#include <Adafruit_MPU6050.h>
+#include <Adafruit_Sensor.h>
+
+// ── Configurações ──────────────────────────────────────────────
+const char* WIFI_SSID     = "SF_VISITANTES";
+const char* WIFI_PASSWORD = "";
+
+// ── Supabase ───────────────────────────────────────────────────
+const char* SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhudGhtdnRqeGNhbnh4YmdydnNkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIxNDQyMDcsImV4cCI6MjA5NzcyMDIwN30.NYHuFSM8a0fgNbcL380tSIEkQyBvZvRCyqr0Hij5o8Q";
+
+// Endpoint aponta para a função RPC do banco
+const char* SUPABASE_RPC_URL = "https://xnthmvtjxcanxxbgrvsd.supabase.co/rest/v1/rpc/inserir_leitura_via_serial";
+
+// Código serial do dispositivo cadastrado no banco
+const char* CODIGO_SERIAL = "SGE-034";
+
+// Intervalo de envio automático (ms). Sem limite de requests no Supabase
+// (plano free tem API ilimitada), mas mantemos um intervalo razoável para
+// não sobrecarregar a rede/sensor.
+const unsigned long INTERVALO_MS = 6000;
+
+// ── Potenciômetro simulando a temperatura corporal ────────────────
+// GPIO32 = canal ADC1_4. Usamos ADC1 (e não ADC2/GPIO4) porque o ADC2
+// do ESP32 é compartilhado com o driver Wi-Fi e não funciona enquanto
+// o Wi-Fi está ativo — limitação de hardware do chip, sem solução via
+// código. Como este projeto fica com Wi-Fi ligado o tempo todo, GPIO32
+// (ADC1) é a escolha certa.
+#define PINO_POTENCIOMETRO 32
+
+// Faixa de temperatura corporal simulada pelo potenciômetro (valor do ADC vai de 0 a 4095)
+const float TEMPERATURA_MIN = 34.0;
+const float TEMPERATURA_MAX = 42.0;
+
+// Intervalo de leitura do potenciômetro (ms)
+const unsigned long INTERVALO_LEITURA_POT_MS = 200;
+
+unsigned long ultimaLeituraPot = 0;
+
+// ── LEDs de status ──────────────────────────────────────────────
+// GPIO25 = verde (tudo normal), GPIO26 = vermelho (alerta/perigo)
+#define PINO_LED_VERDE    25
+#define PINO_LED_VERMELHO 26
+
+// ── MPU-6050 globals ────────────────────────────────────────────
+Adafruit_MPU6050 mpu;
+bool mpuDisponivel = false;
+const unsigned long INTERVALO_LEITURA_MPU_MS = 50; // 20 Hz
+unsigned long ultimaLeituraMpu = 0;
+
+// ── MAX30102 ────────────────────────────────────────────────────
+MAX30105 sensorMax;
+
+// Buffer circular para cálculo de BPM (algoritmo de borda de subida)
+const byte TAXA_AMOSTRAS = 4;
+byte taxas[TAXA_AMOSTRAS];
+byte indiceRata = 0;
+long ultimoPico = 0;
+float bpmAtual = 0;
+bool maxDisponivel = false;
+
+const unsigned long INTERVALO_LEITURA_MAX_MS = 20; // ~50Hz
+unsigned long ultimaLeituraMax = 0;
+
+// ── Monitor serial ──────────────────────────────────────────────
+// Modo de visualização: 'P' = potenciômetro (temperatura), 'H' = batimento (MAX30102), 'A' = acelerômetro (MPU-6050)
+char modoVisualizacao = 'P';
+unsigned long ultimaExibicaoSerial = 0;
+const unsigned long INTERVALO_EXIBICAO_MS = 500;
+
+// Sequências ANSI para terminal
+#define ANSI_CLEAR    "\033[2J\033[H"
+#define ANSI_BOLD     "\033[1m"
+#define ANSI_RESET    "\033[0m"
+#define ANSI_VERDE    "\033[32m"
+#define ANSI_AMARELO  "\033[33m"
+#define ANSI_VERMELHO "\033[31m"
+#define ANSI_CIANO    "\033[36m"
+#define ANSI_CINZA    "\033[90m"
+
+// ───────────────────────────────────────────────────────────────
+
+unsigned long ultimoEnvio = 0;
+
+// ✅ CORREÇÃO 1: declarada no escopo global, visível em loop() e no callback
+volatile bool pendingEnvio = false;
+
+AsyncWebServer servidorWeb(80);
+
+// ── Estado atual simulado ("paciente") ───────────────────────────
+struct Leitura {
+  int    frequencia_cardiaca;
+  int    oxigenacao_spo2;
+  float  temperatura_corporal;
+  int    nivel_bateria;
+  bool   queda_detectada;
+  float  accel_x, accel_y, accel_z;
+  float  gyro_x,  gyro_y,  gyro_z;
+  double latitude, longitude;
+};
+
+const Leitura LEITURA_NORMAL = {
+  72, 98, 36.5, 87, false,
+  0.12, 9.81, -0.05,
+  0.01, -0.02, 0.00,
+  -23.5505199, -46.6333094
+};
+
+Leitura leituraAtual = LEITURA_NORMAL;
+String  cenarioAtual = "Normal";
+
+// ── LEDs — atualiza conforme estado atual ────────────────────────
+// Vermelho acende em qualquer condição de alerta; verde caso contrário.
+void atualizarLeds() {
+  bool alerta = leituraAtual.queda_detectada
+             || leituraAtual.frequencia_cardiaca < 50
+             || leituraAtual.frequencia_cardiaca > 120
+             || leituraAtual.oxigenacao_spo2     < 90
+             || leituraAtual.temperatura_corporal > 38.0f
+             || leituraAtual.temperatura_corporal < 35.0f
+             || leituraAtual.nivel_bateria        < 15;
+
+  digitalWrite(PINO_LED_VERMELHO, alerta  ? HIGH : LOW);
+  digitalWrite(PINO_LED_VERDE,    !alerta ? HIGH : LOW);
+}
+
+// ── MPU-6050 — init e leitura ────────────────────────────────────
+void inicializarMPU6050() {
+  if (!mpu.begin(0x68, &Wire, 0)) {
+    Serial.println("MPU-6050 nao encontrado! Verifique I2C (SDA=21, SCL=22, AD0=GND=0x68).");
+    return;
+  }
+  mpu.setAccelerometerRange(MPU6050_RANGE_8_G);
+  mpu.setGyroRange(MPU6050_RANGE_500_DEG);
+  mpu.setFilterBandwidth(MPU6050_BAND_21_HZ);
+  Serial.println("MPU-6050 OK.");
+  mpuDisponivel = true;
+}
+
+// Lê accel e gyro e atualiza leituraAtual (só no cenário Normal).
+// queda_detectada = true se magnitude da aceleração > 2.5 g.
+void lerMPU6050() {
+  if (!mpuDisponivel) return;
+  unsigned long agora = millis();
+  if (agora - ultimaLeituraMpu < INTERVALO_LEITURA_MPU_MS) return;
+  ultimaLeituraMpu = agora;
+
+  sensors_event_t accelEvt, gyroEvt, tempEvt;
+  mpu.getEvent(&accelEvt, &gyroEvt, &tempEvt);
+
+  // Adafruit retorna accel em m/s² → converter para g
+  float ax = accelEvt.acceleration.x / 9.80665f;
+  float ay = accelEvt.acceleration.y / 9.80665f;
+  float az = accelEvt.acceleration.z / 9.80665f;
+  // Gyro em rad/s → converter para deg/s
+  float gx = gyroEvt.gyro.x * (180.0f / M_PI);
+  float gy = gyroEvt.gyro.y * (180.0f / M_PI);
+  float gz = gyroEvt.gyro.z * (180.0f / M_PI);
+
+  float mag = sqrtf(ax*ax + ay*ay + az*az);
+  bool queda = (mag > 2.5f);
+
+  if (cenarioAtual == "Normal") {
+    leituraAtual.accel_x         = ax;
+    leituraAtual.accel_y         = ay;
+    leituraAtual.accel_z         = az;
+    leituraAtual.gyro_x          = gx;
+    leituraAtual.gyro_y          = gy;
+    leituraAtual.gyro_z          = gz;
+    leituraAtual.queda_detectada = queda;
+  }
+}
+
+// ── Histórico ────────────────────────────────────────────────────
+#define HISTORICO_MAX 10
+
+struct RegistroEnvio {
+  String        cenario;
+  String        payload;
+  int           httpCode;
+  String        resposta;
+  unsigned long timestampMs;
+};
+
+RegistroEnvio historico[HISTORICO_MAX];
+int historicoIndex = 0;
+int historicoCount  = 0;
+
+void registrarHistorico(const String& cenario, const String& payload, int httpCode, const String& resposta) {
+  historico[historicoIndex] = { cenario, payload, httpCode, resposta, millis() };
+  historicoIndex = (historicoIndex + 1) % HISTORICO_MAX;
+  if (historicoCount < HISTORICO_MAX) historicoCount++;
+}
+
+// ── Wi-Fi ──────────────────────────────────────────────────────
+void conectarWifi() {
+  Serial.printf("Conectando ao Wi-Fi %s", WIFI_SSID);
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+
+  int tentativas = 0;
+  while (WiFi.status() != WL_CONNECTED && tentativas < 20) {
+    delay(500);
+    Serial.print(".");
+    tentativas++;
+  }
+
+  if (WiFi.status() == WL_CONNECTED) {
+    Serial.printf("\nWi-Fi conectado! IP: %s\n", WiFi.localIP().toString().c_str());
+    Serial.printf("Mac: %s\n", WiFi.macAddress().c_str());
+    Serial.printf("Painel de teste em: http://%s/\n", WiFi.localIP().toString().c_str());
+  } else {
+    Serial.println("\nFalha ao conectar no Wi-Fi.");
+  }
+}
+
+// ── Monta o JSON ─────────────────────────────────────────────────
+// Assinatura real da função no Supabase (hint do erro PGRST202):
+//   inserir_leitura_via_serial(
+//     p_codigo_serial, p_frequencia_cardiaca, p_payload, p_temperatura
+//   )
+// oxigenacao_spo2, nivel_bateria, queda_detectada e dados de movimento
+// viajam todos dentro de p_payload (jsonb).
+String montarPayload() {
+  JsonDocument doc;
+  doc["p_codigo_serial"]       = CODIGO_SERIAL;
+  doc["p_frequencia_cardiaca"] = leituraAtual.frequencia_cardiaca;
+  doc["p_temperatura"]         = leituraAtual.temperatura_corporal;
+
+  JsonDocument payloadDoc;
+  payloadDoc["oxigenacao_spo2"] = leituraAtual.oxigenacao_spo2;
+  payloadDoc["nivel_bateria"]   = leituraAtual.nivel_bateria;
+  payloadDoc["queda_detectada"] = leituraAtual.queda_detectada;
+  payloadDoc["accel_x"]         = leituraAtual.accel_x;
+  payloadDoc["accel_y"]         = leituraAtual.accel_y;
+  payloadDoc["accel_z"]         = leituraAtual.accel_z;
+  payloadDoc["gyro_x"]          = leituraAtual.gyro_x;
+  payloadDoc["gyro_y"]          = leituraAtual.gyro_y;
+  payloadDoc["gyro_z"]          = leituraAtual.gyro_z;
+  payloadDoc["latitude"]        = leituraAtual.latitude;
+  payloadDoc["longitude"]       = leituraAtual.longitude;
+  payloadDoc["status_hardware"] = "ativo";
+
+  String innerPayload;
+  serializeJson(payloadDoc, innerPayload);
+  doc["p_payload"] = innerPayload;
+
+  String payload;
+  serializeJson(doc, payload);
+  return payload;
+}
+
+// ── Envia a leitura para o servidor, respeitando o intervalo mínimo ──
+// TODOS os caminhos de envio (painel web, Serial, automático) passam por
+// aqui. Isso garante que nunca mandamos mais rápido que INTERVALO_MS,
+// mesmo que o usuário clique em vários botões de cenário em sequência
+// ou aperte teclas rápido no Serial — sem isso, cada clique furava o
+// limite diário da API.
+void enviarLeitura(); // protótipo: definida abaixo
+void enviarSeNaoEmCooldown(bool forcar = false) {
+  unsigned long agora = millis();
+  if (!forcar && (agora - ultimoEnvio < INTERVALO_MS)) {
+    unsigned long faltam = (INTERVALO_MS - (agora - ultimoEnvio)) / 1000;
+    Serial.printf(">> Envio ignorado (cooldown). Faltam ~%lus para o proximo envio permitido.\n", faltam);
+    return;
+  }
+  ultimoEnvio = agora;
+  enviarLeitura();
+}
+
+// ── Envia a leitura para o servidor ──────────────────────────────
+void enviarLeitura() {
+  if (WiFi.status() != WL_CONNECTED) {
+    Serial.println("Wi-Fi desconectado, tentando reconectar...");
+    conectarWifi();
+    return;
+  }
+
+  String payload = montarPayload();
+  HTTPClient http;
+  http.begin(SUPABASE_RPC_URL);
+  http.addHeader("Content-Type", "application/json");
+  http.addHeader("apikey",        SUPABASE_KEY);
+  http.addHeader("Authorization", String("Bearer ") + SUPABASE_KEY);
+  http.setTimeout(3000);
+  http.setConnectTimeout(3000);
+
+  int httpCode = http.POST(payload);
+  String resposta;
+
+  if (httpCode > 0) {
+    resposta = http.getString();
+    Serial.printf("[%s] HTTP %d — %s\n", cenarioAtual.c_str(), httpCode, resposta.c_str());
+  } else {
+    resposta = http.errorToString(httpCode);
+    Serial.printf("[%s] Erro HTTP: %s\n", cenarioAtual.c_str(), resposta.c_str());
+  }
+
+  registrarHistorico(cenarioAtual, payload, httpCode, resposta);
+  http.end();
+}
+
+// ── Lê o potenciômetro (temperatura) ────────────────────────────
+void lerPotenciometro() {
+  unsigned long agora = millis();
+  if (agora - ultimaLeituraPot < INTERVALO_LEITURA_POT_MS) return;
+  ultimaLeituraPot = agora;
+
+  int leituraAdc = analogRead(PINO_POTENCIOMETRO);
+  float temperatura = TEMPERATURA_MIN + (leituraAdc / 4095.0f) * (TEMPERATURA_MAX - TEMPERATURA_MIN);
+
+  if (cenarioAtual == "Normal") {
+    leituraAtual.temperatura_corporal = temperatura;
+  }
+}
+
+// ── Lê o MAX30102 e calcula BPM ─────────────────────────────────
+// Algoritmo: detecta picos no sinal IR e calcula BPM pela diferença
+// entre picos consecutivos. Media movel de TAXA_AMOSTRAS leituras
+// para suavizar. So atualiza leituraAtual quando cenario é "Normal".
+void lerMAX30102() {
+  if (!maxDisponivel) return;
+
+  unsigned long agora = millis();
+  if (agora - ultimaLeituraMax < INTERVALO_LEITURA_MAX_MS) return;
+  ultimaLeituraMax = agora;
+
+  long irValue = sensorMax.getIR();
+
+  // Dedo ausente: IR < 50000 é sinal fraco
+  if (irValue < 50000) {
+    bpmAtual = 0;
+    if (cenarioAtual == "Normal") {
+      leituraAtual.frequencia_cardiaca = 0;
+    }
+    return;
+  }
+
+  if (checkForBeat(irValue)) {
+    long delta = millis() - ultimoPico;
+    ultimoPico = millis();
+
+    float bpm = 60.0f / (delta / 1000.0f);
+    if (bpm >= 20 && bpm <= 255) {
+      taxas[indiceRata++] = (byte)bpm;
+      indiceRata %= TAXA_AMOSTRAS;
+
+      // Média das últimas leituras
+      float soma = 0;
+      for (byte i = 0; i < TAXA_AMOSTRAS; i++) soma += taxas[i];
+      bpmAtual = soma / TAXA_AMOSTRAS;
+
+      if (cenarioAtual == "Normal") {
+        leituraAtual.frequencia_cardiaca = (int)bpmAtual;
+      }
+    }
+  }
+}
+
+// ── Exibição do Serial Monitor ───────────────────────────────────
+// Limpa a tela e exibe painel do sensor selecionado. Usa ANSI para
+// uma interface mais legível. Troca com teclas 'v' (visualização).
+void exibirSerial() {
+  unsigned long agora = millis();
+  if (agora - ultimaExibicaoSerial < INTERVALO_EXIBICAO_MS) return;
+  ultimaExibicaoSerial = agora;
+
+  // Limpa tela e volta ao topo
+  Serial.print(ANSI_CLEAR);
+
+  Serial.print(ANSI_BOLD);
+  Serial.println("╔══════════════════════════════════════╗");
+  Serial.println("║         SAGE - Monitor Serial        ║");
+  Serial.println("╚══════════════════════════════════════╝");
+  Serial.print(ANSI_RESET);
+
+  Serial.printf("%sCenario: %s%s\n", ANSI_CIANO, cenarioAtual.c_str(), ANSI_RESET);
+  Serial.printf("%sWi-Fi: %s%s\n", ANSI_CIANO, WiFi.status() == WL_CONNECTED ? "Conectado" : "Desconectado", ANSI_RESET);
+  if (WiFi.status() == WL_CONNECTED) {
+    Serial.printf("%sIP: %s%s\n", ANSI_CIANO, WiFi.localIP().toString().c_str(), ANSI_RESET);
+  }
+  Serial.println("──────────────────────────────────────────────");
+
+  switch (modoVisualizacao) {
+    case 'P': // Potenciômetro (temperatura)
+      Serial.printf("%sTEMPERATURA CORPORAL:%s %.1f °C\n",
+                    leituraAtual.temperatura_corporal > 38.0f || leituraAtual.temperatura_corporal < 35.0f ? ANSI_VERMELHO : ANSI_VERDE,
+                    ANSI_RESET, leituraAtual.temperatura_corporal);
+      break;
+    case 'H': // Batimento cardíaco (MAX30102)
+      Serial.printf("%sFREQUENCIA CARDIACA:%s %d BPM\n",
+                    leituraAtual.frequencia_cardiaca == 0 || leituraAtual.frequencia_cardiaca < 50 || leituraAtual.frequencia_cardiaca > 120 ? ANSI_VERMELHO : ANSI_VERDE,
+                    ANSI_RESET, leituraAtual.frequencia_cardiaca);
+      Serial.printf("%sOXIGENACAO SpO2:%s %d %%\n",
+                    leituraAtual.oxigenacao_spo2 < 90 ? ANSI_VERMELHO : ANSI_VERDE,
+                    ANSI_RESET, leituraAtual.oxigenacao_spo2);
+      break;
+    case 'A': // Acelerômetro (MPU-6050)
+      Serial.printf("%sQUEDA DETECTADA:%s %s\n",
+                    leituraAtual.queda_detectada ? ANSI_VERMELHO : ANSI_VERDE,
+                    ANSI_RESET, leituraAtual.queda_detectada ? "SIM" : "NAO");
+      Serial.printf("  Accel X: %.2f g, Y: %.2f g, Z: %.2f g\n", leituraAtual.accel_x, leituraAtual.accel_y, leituraAtual.accel_z);
+      Serial.printf("  Gyro  X: %.2f °/s, Y: %.2f °/s, Z: %.2f °/s\n", leituraAtual.gyro_x, leituraAtual.gyro_y, leituraAtual.gyro_z);
+      break;
+  }
+
+  Serial.println("──────────────────────────────────────────────");
+  Serial.printf("%sBateria: %d%%%s\n", leituraAtual.nivel_bateria < 15 ? ANSI_VERMELHO : ANSI_VERDE, leituraAtual.nivel_bateria, ANSI_RESET);
+  Serial.printf("%sLatitude: %.7f, Longitude: %.7f%s\n", ANSI_CINZA, leituraAtual.latitude, leituraAtual.longitude, ANSI_RESET);
+  Serial.println("──────────────────────────────────────────────");
+  Serial.printf("Pressione 'p', 'h', 'a' para mudar a visualizacao.\n");
+  Serial.printf("Pressione 'm' para o menu de cenarios.\n");
+}
+
+// ── Funções do painel web ────────────────────────────────────────
+void selecionarCenario(char id) {
+  // Reseta para o estado normal antes de aplicar o cenário
+  leituraAtual = LEITURA_NORMAL;
+  cenarioAtual = "Normal";
+
+  switch (id) {
+    case '1':
+      // Já é o normal
+      break;
+    case '2':
+      leituraAtual.frequencia_cardiaca = 0;
+      leituraAtual.oxigenacao_spo2 = 0;
+      cenarioAtual = "Parada cardiaca";
+      break;
+    case '3':
+      leituraAtual.frequencia_cardiaca = 45;
+      cenarioAtual = "Bradicardia (BPM baixo)";
+      break;
+    case '4':
+      leituraAtual.frequencia_cardiaca = 130;
+      cenarioAtual = "Taquicardia (BPM alto)";
+      break;
+    case '5':
+      leituraAtual.temperatura_corporal = 39.5;
+      cenarioAtual = "Febre (temperatura alta)";
+      break;
+    case '6':
+      leituraAtual.temperatura_corporal = 34.0;
+      cenarioAtual = "Hipotermia (temperatura baixa)";
+      break;
+    case '7':
+      leituraAtual.oxigenacao_spo2 = 85;
+      cenarioAtual = "Hipoxia (SpO2 baixo)";
+      break;
+    case '8':
+      leituraAtual.queda_detectada = true;
+      leituraAtual.accel_x = 2.8;
+      leituraAtual.accel_y = -1.5;
+      leituraAtual.accel_z = 3.2;
+      cenarioAtual = "Queda detectada";
+      break;
+    case '9':
+      leituraAtual.nivel_bateria = 8;
+      cenarioAtual = "Bateria fraca";
+      break;
+    default:
+      return; // tecla inválida, não sinaliza envio
+  }
+
+  Serial.printf("\n>> Cenario selecionado: %s\n", cenarioAtual.c_str());
+  atualizarLeds(); // acende LED imediatamente ao mudar cenário
+}
+
+// ── Aplica cenário E envia (usado pelo Serial) ────────────────────
+void aplicarCenario(char tecla) {
+  selecionarCenario(tecla);
+  enviarSeNaoEmCooldown();
+}
+
+void imprimirMenu() {
+  Serial.println("\n==============================================");
+  Serial.println(" MENU DE TESTE - SAGE (simulacao de sensores)");
+  Serial.println("==============================================");
+  Serial.println(" [1] Normal");
+  Serial.println(" [2] Parada cardiaca");
+  Serial.println(" [3] Bradicardia (BPM baixo)");
+  Serial.println(" [4] Taquicardia (BPM alto)");
+  Serial.println(" [5] Febre (temperatura alta)");
+  Serial.println(" [6] Hipotermia (temperatura baixa)");
+  Serial.println(" [7] Hipoxia (SpO2 baixo)");
+  Serial.println(" [8] Queda detectada");
+  Serial.println(" [9] Bateria fraca");
+  Serial.println(" [0] Reenviar leitura atual");
+  Serial.println(" [m] Mostrar este menu");
+  Serial.println("----------------------------------------------");
+  Serial.println(" [p] Ver temperatura (potenciometro)");
+  Serial.println(" [h] Ver batimento cardiaco (MAX30102)");
+  Serial.println(" [a] Ver acelerometro (MPU-6050)");
+  Serial.println("==============================================");
+  Serial.print("Escolha uma opcao: ");
+}
+
+// ── Página HTML ───────────────────────────────────────────────────
+const char PAGINA_HTML[] PROGMEM = R"rawliteral(
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAGE - Painel de Teste</title>
+<style>
+  :root { color-scheme: dark; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background:#10141a; color:#e6e9ef; margin:0; padding:20px; }
+  h1 { font-size: 1.3rem; margin-bottom: 4px; }
+  .sub { color:#8a93a3; font-size:0.85rem; margin-bottom:20px; }
+  .card { background:#1a2029; border:1px solid #2a3340; border-radius:10px; padding:16px; margin-bottom:16px; }
+  .card h2 { font-size:0.95rem; margin:0 0 10px; color:#9fb3ff; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap:10px; }
+  .stat { background:#10141a; border-radius:8px; padding:10px; }
+  .stat .label { font-size:0.7rem; color:#8a93a3; text-transform:uppercase; }
+  .stat .value { font-size:1.4rem; font-weight:600; margin-top:2px; }
+  .alerta .value { color:#ff6b6b; }
+  pre { background:#0c0f14; padding:12px; border-radius:8px; overflow-x:auto; font-size:0.8rem; }
+  .botoes { display:flex; flex-wrap:wrap; gap:8px; }
+  button { background:#2a3340; color:#e6e9ef; border:1px solid #3a4555; border-radius:6px; padding:8px 12px; cursor:pointer; font-size:0.85rem; }
+  button:hover { background:#3a4555; }
+  table { width:100%; border-collapse:collapse; font-size:0.8rem; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid #2a3340; }
+  .ok { color:#6bd17a; } .erro { color:#ff6b6b; }
+</style>
+</head>
+<body>
+  <h1>SAGE - Painel de Teste de Sensores</h1>
+  <div class="sub">Atualiza automaticamente a cada 2s — IP: <span id="ip"></span></div>
+
+  <div class="card">
+    <h2>Ultima leitura enviada</h2>
+    <div class="grid" id="statGrid"></div>
+  </div>
+
+  <div class="card">
+    <h2>Disparar cenario remotamente</h2>
+    <div class="botoes" id="botoesCenario"></div>
+  </div>
+
+  <div class="card">
+    <h2>JSON exibido</h2>
+    <pre id="jsonAtual">aguardando...</pre>
+  </div>
+
+  <div class="card">
+    <h2>Historico de envios</h2>
+    <table>
+      <thead><tr><th>Cenario</th><th>HTTP</th><th>Resposta</th><th>Quando</th><th></th></tr></thead>
+      <tbody id="historicoBody"></tbody>
+    </table>
+  </div>
+
+<script>
+const cenarios = [
+  {id:'1', nome:'Normal'},
+  {id:'2', nome:'Parada cardiaca'},
+  {id:'3', nome:'Bradicardia'},
+  {id:'4', nome:'Taquicardia'},
+  {id:'5', nome:'Febre'},
+  {id:'6', nome:'Hipotermia'},
+  {id:'7', nome:'Hipoxia'},
+  {id:'8', nome:'Queda detectada'},
+  {id:'9', nome:'Bateria fraca'},
+];
+
+const botoesDiv = document.getElementById('botoesCenario');
+cenarios.forEach(c => {
+  const b = document.createElement('button');
+  b.textContent = c.nome;
+  b.onclick = () => fetch('/cenario?id=' + c.id).then(atualizar);
+  botoesDiv.appendChild(b);
+});
+
+let ultimoHistorico = [];
+
+function verJson(i) {
+  const h = ultimoHistorico[i];
+  if (h) document.getElementById('jsonAtual').textContent = JSON.stringify(JSON.parse(h.payload), null, 2);
+}
+
+async function atualizar() {
+  try {
+    const r = await fetch('/status');
+    const d = await r.json();
+    document.getElementById('ip').textContent = d.ip;
+
+    document.getElementById('statGrid').innerHTML = `
+      <div class="stat"><div class="label">Cenario</div><div class="value">${d.cenario}</div></div>
+      <div class="stat ${d.frequencia_cardiaca===0?'alerta':''}"><div class="label">BPM</div><div class="value">${d.frequencia_cardiaca}</div></div>
+      <div class="stat ${d.oxigenacao_spo2<90?'alerta':''}"><div class="label">SpO2</div><div class="value">${d.oxigenacao_spo2}%</div></div>
+      <div class="stat ${(d.temperatura_corporal>38||d.temperatura_corporal<35)?'alerta':''}"><div class="label">Temp</div><div class="value">${d.temperatura_corporal}&deg;C</div></div>
+      <div class="stat"><div class="label">Bateria</div><div class="value">${d.nivel_bateria}%</div></div>
+      <div class="stat ${d.queda_detectada?'alerta':''}"><div class="label">Queda</div><div class="value">${d.queda_detectada?'SIM':'nao'}</div></div>
+    `;
+
+    document.getElementById('jsonAtual').textContent = JSON.stringify(JSON.parse(d.payload), null, 2);
+
+    const hr = await fetch('/historico');
+    const hist = await hr.json();
+    ultimoHistorico = hist.slice().reverse();
+    document.getElementById('historicoBody').innerHTML = ultimoHistorico.map((h, i) => `
+      <tr>
+        <td>${h.cenario}</td>
+        <td class="${h.httpCode>0 && h.httpCode<400 ? 'ok':'erro'}">${h.httpCode}</td>
+        <td>${h.resposta.substring(0,40)}</td>
+        <td>${Math.round((d.uptimeMs - h.timestampMs)/1000)}s atras</td>
+        <td><button onclick="verJson(${i})">ver</button></td>
+      </tr>`).join('');
+  } catch (e) {
+    console.error(e);
+  }
+}
+
+atualizar();
+setInterval(atualizar, 2000);
+</script>
+</body>
+</html>
+)rawliteral";
+
+// ── Configura as rotas do painel web ──────────────────────────────
+void configurarServidorWeb() {
+  servidorWeb.on("/", HTTP_GET, [](AsyncWebServerRequest *request) {
+    request->send_P(200, "text/html", PAGINA_HTML);
+  });
+
+  servidorWeb.on("/status", HTTP_GET, [](AsyncWebServerRequest *request) {
+    JsonDocument doc;
+    doc["ip"]                   = WiFi.localIP().toString();
+    doc["cenario"]              = cenarioAtual;
+    doc["frequencia_cardiaca"]  = leituraAtual.frequencia_cardiaca;
+    doc["oxigenacao_spo2"]      = leituraAtual.oxigenacao_spo2;
+    doc["temperatura_corporal"] = leituraAtual.temperatura_corporal;
+    doc["nivel_bateria"]        = leituraAtual.nivel_bateria;
+    doc["queda_detectada"]      = leituraAtual.queda_detectada;
+    doc["payload"]              = montarPayload();
+    doc["uptimeMs"]             = millis();
+
+    String saida;
+    serializeJson(doc, saida);
+    request->send(200, "application/json", saida);
+  });
+
+  servidorWeb.on("/historico", HTTP_GET, [](AsyncWebServerRequest *request) {
+    JsonDocument doc;
+    JsonArray arr = doc.to<JsonArray>();
+
+    int total = historicoCount;
+    int idx = (historicoIndex - total + HISTORICO_MAX) % HISTORICO_MAX;
+    for (int i = 0; i < total; i++) {
+      JsonObject o = arr.add<JsonObject>();
+      RegistroEnvio &reg = historico[idx];
+      o["cenario"]     = reg.cenario;
+      o["httpCode"]    = reg.httpCode;
+      o["resposta"]    = reg.resposta;
+      o["timestampMs"] = reg.timestampMs;
+      o["payload"]     = reg.payload;
+      idx = (idx + 1) % HISTORICO_MAX;
+    }
+
+    String saida;
+    serializeJson(doc, saida);
+    request->send(200, "application/json", saida);
+  });
+
+  // ✅ CORREÇÃO 3: callback só muda o cenário e sinaliza a flag — sem HTTP aqui
+  servidorWeb.on("/cenario", HTTP_GET, [](AsyncWebServerRequest *request) {
+    if (request->hasParam("id")) {
+      String id = request->getParam("id")->value();
+      if (id.length() > 0) {
+        selecionarCenario(id[0]); // só muda os dados, não faz HTTP
+        pendingEnvio = true;      // loop() vai enviar na próxima iteração
+      }
+    }
+    request->send(200, "text/plain", "ok");
+  });
+
+  servidorWeb.begin(); // ✅ CORREÇÃO 4: begin() no escopo certo
+}
+
+void setup() {
+  Serial.begin(115200);
+
+  // LEDs
+  pinMode(PINO_LED_VERDE,    OUTPUT);
+  pinMode(PINO_LED_VERMELHO, OUTPUT);
+  digitalWrite(PINO_LED_VERDE,    LOW);
+  digitalWrite(PINO_LED_VERMELHO, LOW);
+
+  // I2C (compartilhado entre MAX30102 e MPU-6050)
+  Wire.begin(21, 22); // SDA=21, SCL=22 (padrão ESP32)
+
+  // MAX30102
+  if (sensorMax.begin(Wire, I2C_SPEED_FAST, 0x3D)) {
+    sensorMax.setup();
+    sensorMax.setPulseAmplitudeRed(0x0A);
+    sensorMax.setPulseAmplitudeGreen(0);
+    Serial.println("MAX30102 OK.");
+    maxDisponivel = true;
+  } else {
+    Serial.println("MAX30102 nao encontrado! Verifique I2C.");
+  }
+
+  // MPU-6050
+  inicializarMPU6050();
+
+  conectarWifi();
+  configurarServidorWeb();
+  atualizarLeds(); // estado inicial
+  imprimirMenu();
+}
+
+void loop() {
+  // Leituras dos sensores
+  lerPotenciometro();
+  lerMAX30102();
+  lerMPU6050();
+
+  // Atualiza LEDs conforme estado atual
+  atualizarLeds();
+
+  // Exibe painel no Serial Monitor
+  exibirSerial();
+
+  // Leitura do Serial
+  if (Serial.available() > 0) {
+    char tecla = Serial.read();
+    if (tecla == '\n' || tecla == '\r') {
+      // ignora
+    } else if (tecla == 'p' || tecla == 'P') {
+      modoVisualizacao = 'P'; // Potenciômetro (temperatura)
+    } else if (tecla == 'h' || tecla == 'H') {
+      modoVisualizacao = 'H'; // Batimento cardíaco (MAX30102)
+    } else if (tecla == 'a' || tecla == 'A') {
+      modoVisualizacao = 'A'; // Acelerômetro (MPU-6050)
+    } else if (tecla == 'm' || tecla == 'M') {
+      imprimirMenu();
+    } else if (tecla == '0') {
+      Serial.println("\nReenviando leitura atual (forcado, ignora cooldown)...");
+      enviarSeNaoEmCooldown(true); // opção manual explícita: pode forçar
+    } else {
+      aplicarCenario(tecla); // respeita cooldown internamente
+    }
+  }
+
+  // Envio solicitado pelo painel web (fora do callback async)
+  // ⚠️ Agora passa pelo cooldown: cliques rápidos em sequência não furam
+  // mais o limite da API.
+  if (pendingEnvio) {
+    pendingEnvio = false;
+    enviarSeNaoEmCooldown();
+  }
+
+  // Envio periódico automático
+  if (millis() - ultimoEnvio >= INTERVALO_MS) {
+    enviarSeNaoEmCooldown();
+  }
+}
